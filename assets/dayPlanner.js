@@ -7,7 +7,7 @@ $("#currentDay").append(currentDate)
 
  
 submitBtn.on("click", function() {
-  // console.log($(this))
+ 
 
   console.log($(this).val());
   var saveHour = $(this).val();
